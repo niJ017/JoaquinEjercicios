@@ -5,31 +5,50 @@
 
 
 <style>
+    
+.imagen-derecha {
+    height: 300px;
+            float: right;
+            align-items: end;
+            border-radius: 30%;
+            border: 5px solid darkorange;
+        }
+        .body {
+            background-color: rgb(226, 221, 221);
+        }
+        .navbar {
+            align-items: end;
+            display: flex;
+            background-color: darkorange;
+            height: 20px;
+            padding: 10px;
+        }
 
-header{background: black}
-h1{font-size:20px; color: white }
-h2{font-size:20px; color: darkviolet }
-h3{font-size:20px; color: darkcyan }
-h4{font-size:20px; color: rgb(180, 61, 95)}
-h5{font-size:20px; color: rgb(14, 242, 37) }
-h6{font-size:20px; color: rgb(0, 207, 211) }
-p{font-size:12px; color: yellow}
-p2{font-size:15px; color: gray}
-p3{font-size:15px; color: orange}
+header{background: rgb(0, 0, 0)}
+header a {text-decoration: none; color: dark}
+
+h1{font-size:20px; color: gray }
+h2{font-size:20px; color: darkorange }
+p{font-size:20px; color:darkorange }
+
 </style>
 </head>
-
 <body>
-
     <header>
+        <nav class="navbar">
+            <a href="" class="navbar">Inicio</a>
+            <a href="" class="navbar"> Contacto</a>
+            <a href="" class="navbar">Mi experiencia laboral</a>
+            </nav>
+
         <h1><strong></strong>CURRICULUM</h1>
     
     <p>de Joaquin Rodriguez</p>
     <hr>   
-    <img src="foto-curriculum.png" width="200px" alt="">
+    <img src="foto-curriculum.png" class="imagen-derecha" >
     </header>
 
-    <p3>Datos personales</p3>
+    <p>Datos personales</p>
     <ul>
         <Li>Fecha de nacimiento:29/5/2006 </Li>
         <li>Direccion: Emilio Castelar 4530</li>
@@ -38,7 +57,7 @@ p3{font-size:15px; color: orange}
         
     </ul>
     <hr>
-    <h3>Medios para comunicarse conmigo: </h3>
+    <h2>Medios para comunicarse conmigo: </h2>
     <ul>
         <li>Contacto: joaquin2006rodriguez@gmail.com</li>
         <li>Telefono de contacto: 097 829 001</li>
@@ -46,7 +65,7 @@ p3{font-size:15px; color: orange}
 
 
    <hr>
-    <h4>Aptitudes</h4>
+    <h2>Aptitudes</h2>
     <ul>
     <Li>Carismatico</Li>
     <Li>Compañero</Li>
@@ -60,11 +79,11 @@ p3{font-size:15px; color: orange}
     <hr>
     <p>   </p>
     <p>   </p>
-    <h5>Perfil</h5>
+    <h2>Perfil</h2>
     <p2>Soy una persona dispuesta a trabajar para obtener experiencia, siempre intento mejorar el ambiente en el que me encuentro, soy bueno para cualquier tarea que se me asigne, si es algo que no se como se hace, con una explicaciòn yo lo hago, siempre dispuesto a ayudar y trabajar. </p2>
     
     <hr>
-    <h6>Experiencia laboral</h6>
+    <h2>Experiencia laboral</h2>
     <ul>
         <Li>2011-2012: Supermercado "Los 33"</Li>
         <Li>2014-2018: Desarrollador web en Antel</Li>
@@ -74,7 +93,7 @@ p3{font-size:15px; color: orange}
     <hr>
 
     <ul>
-        <p4><strong>Idiomas:</strong></p4>
+        <p><strong>Idiomas:</strong></p>
         <li>Español Nativo</li>
         <li>Ingles avanzado con certificado nivel B1</li>
 
